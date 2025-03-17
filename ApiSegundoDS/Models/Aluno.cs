@@ -4,10 +4,10 @@
     {
         public int Id { get; set; }
         public string? Nome { get; set; }
-        public string? RM { get; set; }
+        public string? RMA { get; set; }
         public string? Pai { get; set; }
         public string? Mae { get; set; }
-        public Escola Escola { get; set; }
-        public Professor Professor { get; set; }
+        public int EscolaID { get; set; }
+        public int ProfessorID { get; set; }
     }
 }
